@@ -1,0 +1,62 @@
+.blog {
+   padding-bottom: 50px;
+   @media (max-width: 767.98px) {
+      padding-bottom: 30px;
+   }
+   &__tirle{
+      margin: 0px 0px 50px 0px;
+   }
+   &__article-name {
+      display: inline-block;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 44/30 *100%;
+      color: inherit;
+      transition: color 0.3s ease 0s;
+      margin: 0px 0px 10px 0px;
+      
+      @media (min-width: 991.98px) {
+         &:hover{
+            color: #ff6464;
+         }
+      }
+   }
+
+   &__items {
+   }
+
+   &__item {
+      border-bottom: 1px solid #e0e0e0;
+      padding: 0px 0px 30px 0px;
+      margin: 0px 0px 30px 0px;
+      &:last-child {
+         margin: 0px 0px 0px 0px;
+      }
+   }
+
+   &__info {
+      display: flex;
+      font-size: 20px;
+      margin: 0px 0px 10px 0px;
+   }
+
+   &__date {
+   }
+
+   &__separator {
+      margin: 0px 15px 0px 15px;
+   }
+
+   &__category {
+   }
+
+   &__text {
+   }
+}
+.page {
+
+   &__container {
+   }
+}
+
+
